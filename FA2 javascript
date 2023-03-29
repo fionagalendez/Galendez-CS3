@@ -1,0 +1,38 @@
+function addTo() 
+{ 
+        num1 = document.getElementById("firstNumber").value;
+        num2 = document.getElementById("secondNumber").value;
+        var n1 = Number(num1)
+        var n2 = Number(num2)
+        sum = n1 + n2;
+        document.getElementById("result").innerHTML = "The sum of " + num1 + " and " + num2 + " is " + sum + ".";
+}
+function subtractTo() 
+{ 
+        num1 = document.getElementById("firstNumber").value;
+        num2 = document.getElementById("secondNumber").value;
+        difference = num1 - num2;
+        document.getElementById("result").innerHTML = "The difference of " + num1 + " and " + num2 + " is " + difference + ".";
+}
+function multiplyBy()
+{
+        num1 = document.getElementById("firstNumber").value;
+        num2 = document.getElementById("secondNumber").value;
+        product = num1 * num2;
+        document.getElementById("result").innerHTML = "The product of " + num1 + " and " + num2 + " is " + product + ".";
+}
+
+function divideBy() 
+{ 
+        num1 = document.getElementById("firstNumber").value;
+        num2 = document.getElementById("secondNumber").value;
+        quotient = num1 / num2;
+        document.getElementById("result").innerHTML = "The quotient of " + num1 + " and " + num2 + " is " + quotient + ".";
+}
+function modulusOf() 
+{ 
+        num1 = document.getElementById("firstNumber").value;
+        num2 = document.getElementById("secondNumber").value;
+        modulus = num1 % num2;
+        document.getElementById("result").innerHTML = "The modulus of " + num1 + " and " + num2 + " is " + modulus + ".";
+}
