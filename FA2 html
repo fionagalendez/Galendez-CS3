@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html> 
+<head>
+<meta charset=utf-8 />
+<title>JavaScript program to calculate multiplication and division of two numbers </title>
+<style type="text/css">
+body {margin: 30px;}
+</style> 
+</head>
+<body>
+<h1>calcU</h1>
+<h5>This page is .....</h5>
+<form>
+<input type="text" id="firstNumber" /><br>
+<input type="text" id="secondNumber" /><br>
+<input type="button" onClick="addTo()" Value="+" />
+<input type="button" onClick="subtractTo()" Value="-" />
+<input type="button" onClick="multiplyBy()" Value="*" />
+<input type="button" onClick="divideBy()" Value="/" />
+<input type="button" onClick="modulusOf()" Value="%" />
+</form>
+<p id="result">Results will be displayed here.</p>
+<script type="text/javascript" src="FA2.js"></script>
+</body>
+</html>
